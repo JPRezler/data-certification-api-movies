@@ -9,5 +9,6 @@ RUN pip install -r requirements.txt
 COPY api /api
 COPY exampack /exampack
 COPY model.joblib /model.joblib
+COPY predict.py /predict.py
 
 CMD uvicorn api.app:app --host 0.0.0.0 --port $PORT

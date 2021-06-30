@@ -8,9 +8,9 @@ run_api:
 # - - - - - - - - - - - - - - - - - - - - - - - - -
 # docker 🐳
 
-# 🚨 set your correct project id in GCP_PROJECT_ID
+# 🚨 set your correct project id in GCP_PROJECT_ID wagon-bootcamp-data 5072966049 bustling-walker-309810
 
-export GCP_PROJECT_ID="le-wagon-data"
+export GCP_PROJECT_ID="bustling-walker-309810"
 export DOCKER_IMAGE_NAME="data-certification"
 export GCR_MULTI_REGION="eu.gcr.io"
 export GCR_REGION="europe-west1"
